@@ -7,8 +7,8 @@ import promptSync from "prompt-sync"
 let prompt = promptSync()
 
 export function exercicio10(nmero:number) {
+
+ while (nmero != 0) {
     nmero = parseInt(prompt("Digite um numero: "))
-do {
-    nmero = parseInt(prompt("Digite um numero: "))
-} while (nmero != 0);
+}
 }
